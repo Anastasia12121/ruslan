@@ -1,0 +1,281 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoWorld - Всё об автомобилях</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="stayl.css">
+    <style>
+    </style>
+</head>
+    <body>
+    <!-- Шапка --> 
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2252/2252691.png" alt="AutoWorld Logo">
+                    <div class="logo-text">
+                        <h1>AutoWorld</h1>
+                        <p>Ваш гид в мире автомобилей</p>
+                    </div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#history"><i class="fas fa-history"></i>История</a></li>
+                        <li><a href="#reviews"><i class="fas fa-star"></i>Обзоры</a></li>
+                        <li><a href="#catalog"><i class="fas fa-car"></i>Каталог</a></li>
+                        <li><a href="#news"><i class="fas fa-newspaper"></i>Новости</a></li>
+                        <li><a href="#phone"><i class="fas fa-phone"></i>Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Герой-секция -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Откройте для себя мир автомобилей</h2>
+                <p>История, технологии, обзоры и лучшие предложения на рынке. Всё, что нужно настоящему автолюбителю.</p>
+                <a href="#catalog" class="btn">Посмотреть каталог</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- История автомобилей -->
+    <section id="history" class="section">
+        <div class="container">
+            <h2 class="section-title">История автомобилей</h2>
+            <div class="history-grid">
+                <div class="history-card">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTERMWFRUWFhcXGBYXFxcaFRUaFRUZFhUYFxYaHigiGBolGxgZITEhJyktLi46GB8zODMsNygtLi0BCgoKDg0OGhAQGi8gHyUvLS0tLS0tLS0vLS0tLS0tLS8tLTYvLS0tLS0tLS0tLS0tKy0tLS0tLS0tLS0tLS0tLf/AABEIALgBEgMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAABQYEBwECAwj/xABFEAACAQIEBAMECAMFBQkAAAABAhEAAwQSITEFBiJBE1FhBzJxgRQjQlJicpGhgrHBM1NjkrIVQ8LR8RYkNYOTorPh8P/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgME/8QAIhEBAQACAgMAAQUAAAAAAAAAAAECEQMhEjFBUQQiMqHw/9oADAMBAAIRAxEAPwDeNKUoFKUoFKUoFKUoFKUoFKUoFKUoFKUoFKV5XMUiuqM6h3nIpIDPlEtlG5gamKD1pSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSlApSuD6UHNKhuYeI3bGHu3QEUqujZiYJMA5Smuppw7i926iuMK8MoIJe0AwIBBAzEwQZ1g0GbhsdmvXbWWPDCazvnBO3aIrMrAwOFdbt648Rc8OADMZFgz0jv6ms+pAqsc1W8uK4fe+7iGt/8ArWmX+Yqz1Bc4r9Qtz+6vWbs+WS4v/wC+dVKnaVwDXJopSqVzhz2cE6KLPiZgSesLA7akRJg+W1XWgUpSgUpSgUpSgUpSgUpSgUpSgUpSgUpSgUpSgUpSgUpSgUpSgUpSghucDGCvnyX/AIhUjgFi1bHkij9FFRXPBjAYj8n9RUvgx9Wn5V/kKJ9e1KUopVV9oPFltWBZK5jiD4fvAZZ2Mak6/wBdanOMYrw7ZgwSYBmN/U7E7T2JFRlvAYQqwuXLVxm3lly5twQhMSDqGMtpJJOtBrnGe13EIxtJZsyhyDMXLNA0YqCIkQYnvVo5K5yxeJFz6ThyugyFLF9U3IOYnPPbb/7qa5MxVoYVJa2rjMraqCcrESflFToxtvtcT/Mv/OiRRuYOB2r9+ybttpUIvUSDcF2+iGUk5FyeJGs6mdtdg1WuIdWNQds1gf5UxV0n9lqbx+N8ID6u489raFiPU+VTaxlUqrYnm/r8NbL22mJvgoDvqu+YaedQmE4/eXFYj3ZClmPWytlAgKpcZdwKxeXGXTpOO2bbEpWFwfGm9aW4QATuAZA0rNrcu3OzRSlKoUpSgUpSgUpSgUpSgUpSgUpSgUpSgUpSgUrGw+NV3uIszaIVtNJZQ4APfQg/OsmgUpSgr/Pxjh+I/J/UVN4UdC/lH8qr/tHaOG4n8n/EKsdsaD4CoO1KUqjXHtjxN1bVpbBuBs0kW80lSGn3fIqCPUCtY4jF4zQo2M1GoZrxg+k7it8c0YTOoZIDoCSSCRl+7lGpYnb4GqDxfHvZQXbltskkElCrCJglHKmDB19K8nNz82GWsMNx1w48Mpu5aUXiGOxiugs+MJRSwRWnMwzNmAGhk/tWXwjG483IuDElfLI41+S1JcQ479HvFyp+tW20ZR5MderTpI7+VSnA+ZHvlntqUS2Oq7cAW2p+ypYMYJ7dvWs39TzzKSce/S48WGt3L8uvKnGL9ib2Jw99/CmBkIdmbNbEAwDoQDuakuOc849feWxggRIRybuJIMx0AHLt9tV+NROA4jjMbdy4VvDXZrxBXJmjNB1jftr36RVi4Lyrbw11HKeM63XF13hs3SetQTpqyxoWkMMxr04ZZWbymq5ZSb1jdqJxDiWMxBtveNy4cx8O46hFYGNAFAWAQdj3rIdcYXcl0QleqI1AVTGx7Fe9WT2o4q3bfD55YLmzBILIsEBiJ0UlCdd4aq7hOYFuXrjIrZTlQaLKzaKGdYA6POuWVy8r1NO+OM8Z3U3wrA8TNmbGKASGJEkEecdH7g6TXP8A2n4ph7otXL1tzHSLiqFIBjRsqSPMzp3NTPBme3w24z7PbvusNrkFq3EkHQkqe89Q71l4O02MtWrJtxagF7rgEnIoDeGDMHMxObWCx8q7Y5OOWP4YGI9o9+1Nu/hlS7AM55SG2Okgj4NXtwXnTEXVZ3OFUB8otvc8O4+gMpJiDMCSNu1Um3jXsXsR4TtbW211XDdTNbNwgZkcdSwB30kaHtF4Illa6HC5jIQiFIbqIjsI8tBI0Na9sem+eA8btYq3ntHYlWU6MjDdWHY7fqDqCDUnWoeQeKpbxIUsEBlXBPTABCQdoDQJ9Y0AAG3qq72UpSgUpSgUpSgUpSgUpSgUpSgUpSgpvIN0ve4hcPfElR8FL5f2Iq5Vo/gNribi7icCzeEzxkRlE3NNSjRIgqSZnfapz/tvxHCmcVhXZPtZ1ZB/5b5Y+RLfEVGJlJG1KVXuXuccLi1BRijSFKXBlIY7LOxJ8gZqw1W1Y9pX/huI/KP9YqzLtVQ9q9wrw29BjQ/srMP3APyq2YY9Cz90fyqD0pSlUYmIBFxWAnQiJAMj3YnvBbT/AJVqz2iX7Sq9i1fvvea4hZXul7VsG4CVcswRCfdA1ifhGzeN2br2wlmAWYAvp9WNywE76QI11qn8+8Aw1nBCEB8JkYZyxDk3ERsxncgnbT4QIxksacXEm6qnO2jupL5pHRb8NZGsQCB+WpXgarccWrl3wsOzK10Zwqtl20767aGCZ1MA5XH+G2cNhsMqMHvXQ9+6RMr4nuKddwMyjQbHzFV/KMoeJE5SQdp1X5HUa+Xrrm/t7awky6vpuq3xDA4a0LK37JS1mAKXEkqQzMramXBkid9jvrW+OcaF67hDh7qF7JY3HVz4bOXDhsw99feJHbNWsLKNfu5A7qVBZHAzCAQCuWRJBIAO/YzpHpxcG0qMCyrcUg9vDZCVDkA+enzG5iltvTcmElve23OD8Mw1o5sRdt4m7dab9xiDNp8LcHhKCxKopQws6ekiqfxHh6Wme3bMgbazOWCCD3GWf1PnVV49ZKtacnW7Zsu0H3LmUqpB/EUbUd/lNvx2BcMCNemOnWNMh0GwEj9q48vJJqX6TD3p7cuXbZV7V2SpXaSDO41BB9PnU3jfaHZZmVCFQrlLeGwARXywqKWJBkaHL3HaqtgLBCy0idyQV2Ou9QOIVVbIJInttCkmfXc7eVTj5JbZHfi4Jn/Pf+9prmviuDvub4us17pZ81kKjCItmWY5W19TA0gbRHDVJYs7aOJDtssHtJ7ydtAPKasHCPopt5fCuNfEXJATIR7pHUYIzSBoTpFdsRYw9xlzXmDJoo8TAKswIBkmdROs7969OtuM5McdyT77+rzwDkWx4BN057t5QyOu9lT1KVJHrrI12jec3lri9zD3jgMYQWEeFc7Op934A+R2Omog1XOSuNYoO9qTeyBpVTbCBQE1W7OXSToJGvrpbOYOENi8MpFsWbtsF7eZtc0dSEj7Ldye4B7A1qV57Pq10qu8kcd+lYfr/tbfS87nyY+pgg+oNWKqpSlKBSlKBSlKBSlKBVc5l5xw+E6SfEu9ra7ydgx7T5an0rB535luW2TB4MZ8Vd0EfYB7z2MAmewBPlXblbli1hALz/W3yCL1xx1WydWyA+6vmd2ENJAFERyvxjFnQpgrZEjMPrCPy6tOomSh12rFxXJ9/wALxr3EsQxFtrhALKvSuaILtV7nJAP2DIPnbOh175e/5VPeovmdsuCxQ+6mI1/PYdx/rA+VBQOTOXcZcw638JjnsZnKeCVLWyV3b3oB0P2T7oFTj8zcSwQP+0MOuIsDpa9Z7aazoBEH7SqPWpP2cjJgLJ3hbrx5l7zBI9ekj51ZcoAAbVU1b8TtrEd9TMeZWKiYzqNY8S4fbg8R4OysgEX8PEgKdWV7R3tnuvbddBpb+UeIWsZZz4W7csEQLlgFHFtvJRcVoQ9ssA+QMgQXM3Ll3Bv9P4aMlwS1zDKJRrY1aFHYd1+awYBjMCLJuWeKYJxatuWS/YDEMj5CzIqqOpD73kNGGmgXok76Z/tiFxMLbD4h3R7wUqFQE/VuTJWJEdvhV25ZW94Fprt0OGs2yAEykEoCSWzHN+grVPOeOGNCW/pFgKLhcRGeIKgMc+/Vv6VeuGcTtLZtoL9ssllR7w1YKO0+m3rWMeTGulwylXSuruAJJAA7nQCqpe4zhxP/AHi0PdGtxZ0Op38j+1Y2I5kwUNnxFlhOqhg5YZQPcElte0Vryl+pqrNe43h1keKrMASUQ53gbnIsn9qqntCxwNhlaIZkGU6yqstwkDsTlK/xD0qHfn/hthYsgtlzAJbtEaM0947gVrji3NN/HX0zKyWba6SCCSqwhJI6jnhv+lX2z5Rj8RulwwnNc6QoJ1YZWGg8yQI+dQ1lspknIe/l+p/kZrLx95VU5c2YkMxBMDwySkbiRO0aztuax7mFuMWyKBkIVllWUMQW0ykjsdtoAqJjbrpI4fFlSGSFYRlJHRuSNYgayddN/hXvxTGC4qpdteGEGkBukMZMZgehogkfLyPhgH8LDXEdAC7o2jTlyi521MHN59hXfB4S7dfw1Q3GKEov2iY0yljK6T27Desb7dPHr2x8S6HIHzBUt+FAI9z3ljSCQRmVhuV3Nd7SKBlDHobxAfs5XKywge7OUx/iGsYWWEDKVHkVylROsDykGY0kSMp0Mjhj4hVAiyekZVGZkYMrKB5jNn9cuu1bc+/y4u2FzOFkk3ADAkrAJE/IgmjESWytJ0EyO8zFdrvCrxLDKQylS0FZzGzkBCyCwkTp5DbSsvgnKGJvAPYvWWB6VGe4HAABYmVENLamYHaZFNRZllPVpwm5ctH6lC2kfe3I2IMjtse3pXN+/dNxVa0VZCzqpRtJ6mIDat7nedj2mpbCcl8QuZ5a2cpgF3VlMDX6xic3rCwNRM6VGYrheJssq3biW8xAXJcJJ3MhYkrpuNJK0Wa3u2/0sPL/ADNd+no7YYBvCANtE8POJhbhVjlBJMzpOUfGrpe9oVhGi/Yv5oka2Co8oC3CB89fWtY8AGTEZrg1m3bYMkMHuFymZWA6egtsNxWy+J8r3rgAt4lVI7W+0D7qIT+9Ltcbjr1tB8L5ot2+JG+iOtrECHQ5SQ7aErlYg9YUzp77aeez+H8UtXp8NtRupEMvxU6itR8zck3sPZbE3L5uwQsMp2cwDJad40gVsHkPl61hbIe1cdxeRH6ojVZEAfHuTWp6T6s9KUoFKUoFKUoFYnFsetizcvPsilo842A9SYHzrLqie2HEsMGtq37966qD10JX/wB+Sg8PZ9w9nD8QxIY3cQSUuKJyW57DUgMRO0ZVTyq6eJMGQG2Vx/Zvr7p8te3roTrXlg7K2baW0FxAiqgXKXEKAB7sxoOxFcXbiazAJ3KkAnzz2338o1NAP3Y1X3V9COq2fwkA5Ttp+GoLnPEgYG+ZmbOWfUHJJ/MLiH51K3pIj3wNik+Lb7zkbqZZAManSRqBVT5+xBGCvzllsmgOhYXFzFRv1CGIIkFGB7TEvqpnkwxgsOP8NW1+Byg+mfO09shqeV4g+QkZtAJmbr+U6wPj6xXeA3lGHtBYyrbQAkjJooXMzeWm25OaNJmbw5J1UFjM5ipgnzAMCe0sQR2EaUWemWhgEzlB3uNAJ8oB2HlP6azWpOY7NvhuNuk2ycHi7VxlU5lyXkQkBT7wljl7aXvJa2vIUyzKG7NcYMw84UQF/hNa+9r96zewRIuFrtq4rKCjLo3QwEqNOoH5USpDhfs6tXMPZe5evrda0jPlZCuYqC0K6NAntNep9mFrNnGIuTt1W8O37G3H7VcuEYgXLFq4NA9tGH8Sg/1rLqp4xrm57JLDEk4i7JM6LaA/QLArD4j7H7fht4OIc3Ps5wmSZ1mFnaa2lSh4x8wc48Fv8NKLfgG6guLlAZRqwuJOkspKekHvOmNYRh1MxMrEGBroSYjTUeffvvX0hzRy1h8fZ8LEKSAcyOpy3LbDZkbsf2rT3OXIJ4daS4t43rbPk6kCsnT0ywMNMHsP3qU8Zqqny/ypiMVcuJhree4ihrjZl6M5bKhYkAMY0Hw8jU2nLvEcOjC3bKNbm0+VbZYqbebNnWWjK2pAG+pY6DZvLXBWsW1tW8FauWiMzXGu5WdmEnMhQhwdAOoj4V7YniL5WVsIEWCJttZZAIgmVOdo/Co+VRpodMBeW2z5EyhlB1AMkMB69jtXbCXH8ZC5YiVB6bd2ATGltj1xOg+Ea1c+OcNaxhriyWWLbEtYvWRBYhZa4Aq99z2ivIcmWIZ24jh0yg6JLsWUSQgzodxuQP01rEt33GrMddVUMThmV8jB92K57WUlQTDgiGGgPcxlIqS4ZYYsmWVYw32wywAyEMVAbp1BEnTWrlw3kNyVW9iGexmQZMjBTcCs7ZUzuzZUkTCk5zERrXcBwa4uJC37hQKq5AWBJFxYAHUQuUZZSQdUGkkrrLeumNd9pnA4K8zXSzvaBQFrgmQpGVCCd94AH7Rp58p4K/ZxS2beIAF5DcIW2XV/CnLKNHmdSCP2rjGqyIxuMWRISO+pJVVmGMmTFSnLCeNcW/ky20teFaBynOCZa4MykHUHuIk7xJ5cVy78m85j1pam4a90h7929dIMZWv2lRT3It2DbO3mxOu1cHgttSRaWwmbdFi2T8WZCWMjfNUhhLekgWiRt4yKpAP3bqDv5kT6VnyUAzZ7f5rlwoP4lJAHxYfCu0Z003YwWIGJ+tUgPjbaKxKsCttmXRgdUCumpMH4gxvQP/i/DIoj9waouKAxPGLCqenC22uOVJc5nAykGCP7s7nvV5Dx/vWH51UfzUVUiD56QNgL8s7QFOoja4pGwHlWdyRczYDDH/CUf5RH9KwuerxGAvnOrCF7anrXuD8e1Z3JVrLgMKD/AHKH/Mob+tWH1NUpSilKUoFKUoFa+9rugwTnRVxSEnyhlb+Smtg1Tvaxwvx+HXYEm39Z6wAVc/JGY/KiVY85PuteP8CL/rUV1uM4BJYgf4jWxH6IajOWeMjFYWzezMzugzpbgZXHTcBb7MMDuwmpHwoOsBvuoeqPx3TqB+nzqKwsSoJ1yuRrHhKxjscxyAD12qpc6Wbly1dW0QQ4UsDJMI0iH7KCPynKYnerlcgjtl1IAHS0alvMqNOo6sYiJE4d+yCGnurztMhCY08spXy+rMaaVnKbVB8ocPfC4dbbmCp0kgeHmJ0NwIxSSD5LIImZAsoiPrBc+LNbdfSGcZdfjXjbsENA31ynsSSVuoZ0IZkZoOkxr1Vk4Yd7cqdyq99YLKG0YToVPUNpGgNkGSgC7G4noLaH/ShFVj2oXl/2ZiJuzpb6SFDT4ydoB9du1WS0QBOUgfftSNe+e1uD6Q3rFUn2q4o3reGwNtw7Yq8g6RqFDRLQYgEzsPcPlVSrnyihXA4UHcYez/8AGtS9dLNoKoVdlAA+AECu9UKUpQKrftFwBvcOxCgEsqeII3JtEXIHxCkfOrJXDKCIOoOhoKNyNxNcThVzC5euIottbk+FAACkzCaiJmToYFTpcg6m2gE7Asq5d8iCMzD7xkCDttWpsNdvcMxt6yuY2kaLiKYZ8OxzW3Vt5UNrGol/Kto4PH27lpbuHyC20ZCdRpEMwB1iRudJWMxIqJK4xeFDqUuEi2wljdPWQftOqwoJjpBk6ajSB0e0GaFtSF6QbgkdWskHbTrKxI6SVGtZNxRDMQ0SAWM+JecwMoAEougkLr2gZSK87q5/qvdRTlJ2ALKbl1mjQvln0BYzOgqKg24JhSMy2rfSj3Ll7IMxYoIVAPdIBTb7wiSZrxx/LGHuaOrA5WhPEceGbjXEtKQGiWuRJ8/Q6zr5XztoEUSAdAxusEt6nvCAmRuRrOYV0KSUInM1y9eeBuUfNbUztPhAR+E7RQVm3ylgkYOLZuEFyA5LLFp0lSpMdQLrJHvKIiIqet4VdIbMPPbOogW7q7Q4Uoreekwepci2qN4cgZWe7JkyUxLypBGx8RjHlBph0Lad0co23S8kIwnTIxLJG3UJG9B2VCpgkDuCZyGdOqIKHtnWDtmBrjH8RXCWXus3hhFzG2SBm7DwiBkeSQBAkSJEmvV7wAYtsql2BgEoBBdS2gZRIIbRgCDJBqoWs3FcT4az9Bw7liJZPHuLoyqGEwVb3e06nqmmi1Mezrh5Nu5i7qTexTeKwDQ6IScmUQIVpLDXYjeKuFttYW4Qey3BPxiYY/GTXkoBG2dV08rtr00g7eUGI96a9FJK6ReTuDGcR210J9DBHnVFP9qV1jZtYcKviX7oVSO5JCAbSJL+u1XrD2QiKi7KoUfBRArXvDCMdxbOsmxhFzCZILsCtsa/xuI9K2NVSFKUopSlKBSlKBXW4gYFWAIIIIOxB0INdq6k0GsuA3jwrGPgLzlMNeY3LF09p0jMduysT5A6TNX0gZdVISelPt3Sfvz57wfi3cDF5o4BZxtk2rw9Uce9bbaR/Ud6oOG5gxfCWFniCNfsAZLOJWWyjsD3YRuD1gLAz6URsW6SMxMMwifJnP8AZWx+FSQfiQfOuiWQWC7iSs/eC2mDE+ue48/CsPhfFrF8K1i8t22gLsymTmafeHY++SCBErWRh3Oa3O5R2I/E7IW/djRRVlQW09wz3C3VXUeRF1c0/gr2aNWbSGhyP924Gl1T2Ugie0EE/anGwx6bYOz2Qh9YUFR+huVHcT5nsYZfEu3FkApcEjUpIkk6AzJAOpDGAdBQTGPxa2Qbl1hbZR74HTdA2UrOp/DMjWDE1U+ScI2Nxb8VvqAuqYUeYjK91Z+zEop7jMftVi4fh1/iTK2KD2cEuq2TIuXh2BGhS1EDXqYfdBir7bcKAqgAAAAAQABoAB2EUGdmpnrD8anjUGZnpmrD8enj0GZmpmrEF+ufGoKl7R+Ev9XxDDD67C6uANblmZYeuXUx5M+9QHD8E9oJjeEZblu4Ga7gwP7KQZOHB0WDICmNzliStbM8atdcUw13hN18RhpOCumbtsCThmY6uo/u9dPunsR0kiV4FzTYxJhH8O+oyC1dGV7bMYYIjbmdJ94AOW0yipy4RoqSQgCW5M+I7lSbj9yAcpk+8WnuDULjuDYDiKLdKrlVf7dSBeEiYz65onMS0idtZiHHLvEcKFOFx4dSdLWKWW6SWXNcgxACkwAAQBrpMFvv2ELeGolFa1ZC665WBuMT30uZfixmurXYZrgmFa6dfJ0fJEdiwJH56pQ47xW2IfCWLpmM1m5oGUkAjO3cqsn8IJoeYuIuGRMAlsM9vV7qlV8MoBb0aSJXU/iNDa5XbIWygfWPHtR982y7ISR6Wz/nNYnGuN4bClzinEsDbdBHiOhUsHVBv15j5DxjrVfXh/FMTAu4uxh0e6xiyC7q8NmImCBKkDq7g1KcE5Iwtko7Zr1186m7eIcrcA0KDZcuV4ME6DWmjtD2cDiuLFPHzYbBhtNB4l9ik6jdZ0P3STIkkGr5gsJbtWhaVMlq3ClFJ+pYDR1bfKd531k/ar1zhoLaC4MrAbrcXYjyIIInzVK7rcb34m4nS4H213kDzg5l+JXuTVHoQcwDmH2S6Bo43ysNp/D31KxrlqvP3H/BQWbSn6XdhAEOrK3SPjOoAOq9R00J9ubua7OCtZBlutcUG1aB92fdJjUJMFQNdIH4cfkTla6Lhx+PlsS/uK29oMIJb/EI0/CNPOhv4n+TOADB4ZbZIN1jnut9523j0Gij4etTtcVzRSlKUClKUClKUCujV3rqRQeLVj4m0rqVdQysIKsAVI8iDoRWS9eD2yaCgcb5BwJbPZ8XD3NdbDRvuIOw9ARUUeA8TQ/VcRukDQF1JYDyJYtPbWtnHDDyrg26qaavtcvYtoGKx18oNlRARtH22y7E/Z71ZuA8t4O0RcRWuXRtcvEvcX8ubRP4QKsxtelY13Ag6xBoPafjXGavAZl97UfvXsFmqOJoT60KmuCKDgz50JPnXGtcGaI5Dmu4vGvOTXDA0Ht41ed3FKBDEQdIPedxHesXEXCo/wCtY6WydTrQVbF8Dv4a4bvC/wCzJlsMzQkzM2idF1jpOn6AV7cK5tsszDEh7OIEDLdDALtMzsJ1J2gDXSrPlrD4rwq1iFyX7YcdpHUJ+6whlPwIqaEjZFslQkMqgEMDIObpXXvpnn5V1tgEWtBq5ciNgysx/RmFUm/yMbQZsJjbtiRqrHMvwkFWj4k1gX+IcVst04izfiQIUg6xO9v0H2qG62H4C6HUHxX2/O4obzKrQdEuZtd4JDt+oZh861y/MnFYA8O372aYEyWzd/Wvaz/tG/IvY+3ZDaEKrzG0SqINtN6bN1sHF8VtWg4v3FtK3UpJ1B75F7kMA3qWNVbFc8YjFOLfC7DNcy5XukDIs699FAJJBbXU9OtdMDyDYJz3rr4ltCczwhIM6hdT8Cxq8cLtpbUW7aLbQbKgCqPgAAKaTtC8oclJh3+kYpvHxRJbMQSlsncpOrN+M6+QFXZTXgley0aj1FciuorsKiuaUpQKUpQKUpQKUpQdStcFK70oPE266m3WRXEUGMbVcG1WVFcZaDCfDzXVLHpWflrqbdBieBXU2KzclMlBHnD11OGqRyVx4dBGHC1x9F9alPDrq1ugiThNZmfjR8LptUr4VcNaoIXworHuWmO0gedTpwtc/R6CuLwVZluo+tZVvAKI6RUz4FcfR6JpF/QxHujf+s11ucOQzKD9Klxh658Crs0h14WgOgj4V7JYYetSYs12W1TZp54fUVkKK6rbg16gUUArsKRXNQKUpQKUpQKUpQKUpQKUpQKUpQKUpQKUpQKUpQKUpQKUpQKRSlBxFIpSgRSKUoEUilKBFIpSg5pSlApSlApSlApSlB//2Q==" alt="Первый автомобили">
+                    <div class="history-content">
+                        <h3>Рождение автомобиля</h3>
+                        <p>От первых паровых повозок до Benz Patent-Motorwagen - как всё начиналось.</p>
+                        <a href="#">Читать далее <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="history-card">
+                    <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1583&q=80" alt="Классические автомобили">
+                    <div class="history-content">
+                        <h3>Золотая эра авто</h3>
+                        <p>1950-1970-е годы - время расцвета автомобильного дизайна и инженерии.</p>
+                        <a href="#">Читать далее <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="history-card">
+                    <img src="https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Современные автомобили">
+                    <div class="history-content">
+                        <h3>Эра электромобилей</h3>
+                        <p>Как технологии меняют автомобильную промышленность в 21 веке.</p>
+                        <a href="#">Читать далее <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Обзоры -->
+    <section id="reviews" class="section reviews">
+        <div class="container">
+            <h2 class="section-title">Последние обзоры</h2>
+            <div class="review-slider">
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Автор обзора">
+                        <div class="review-info">
+                            <h4>Tesla Model S Plaid</h4>
+                            <p>Обзор от Александра Петрова</p>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>"Tesla Model S Plaid устанавливает новые стандарты для электромобилей. Ускорение 0-100 км/ч за 2.1 секунды - это просто невероятно!"</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Автор обзора">
+                        <div class="review-info">
+                            <h4>BMW M5 Competition</h4>
+                            <p>Обзор от Екатерины Смирновой</p>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Идеальный баланс роскоши и производительности. M5 Competition - это автомобиль, который умеет всё."</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Автор обзора">
+                        <div class="review-info">
+                            <h4>Toyota Land Cruiser 300</h4>
+                            <p>Обзор от Дмитрия Иванова</p>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>"Новый Land Cruiser сохранил все лучшие качества предшественника, добавив современные технологии и улучшенный комфорт."</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Автор обзора">
+                        <div class="review-info">
+                            <h4>Porsche 911 Turbo S</h4>
+                            <p>Обзор от Анны Козловой</p>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"911 Turbo S - это совершенство в каждом аспекте. Мощность, управляемость и роскошь в одном флаконе."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Каталог автомобилей -->
+    <section id="catalog" class="section">
+        <div class="container">
+            <h2 class="section-title">Каталог автомобилей</h2>
+            <div class="catalog-filter">
+                <button class="filter-btn active">Все</button>
+                <button class="filter-btn">Новые</button>
+                <button class="filter-btn">С пробегом</button>
+                <button class="filter-btn">Электромобили</button>
+                <button class="filter-btn">Премиум</button>
+            </div>
+            <div class="cars-grid">
+                <div class="car-card">
+                    <div class="car-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSosBpWfwYfyv7HrLGUQoZ9tZEaSNN9fUp3vA&s" alt="Audi A6">
+                        <div class="car-price">₽4,890,000</div>
+                    </div>
+                    <div class="car-info">
+                        <h3>Audi A6 45 TFSI</h3>
+                        <div class="car-specs">
+                            <div class="car-spec"><i class="fas fa-tachometer-alt"></i> 2.0 л</div>
+                            <div class="car-spec"><i class="fas fa-bolt"></i> 245 л.с.</div>
+                            <div class="car-spec"><i class="fas fa-gas-pump"></i> 7.1 л/100км</div>
+                        </div>
+                        <a href="audio.html" class="car-link">Подробнее</a>
+                    </div>
+                </div>
+                <div class="car-card">
+                    <div class="car-img">
+                        <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Ford Mustang">
+                        <div class="car-price">₽3,750,000</div>
+                    </div>
+                    <div class="car-info">
+                        <h3>Ford Mustang GT</h3>
+                        <div class="car-specs">
+                            <div class="car-spec"><i class="fas fa-tachometer-alt"></i> 5.0 л</div>
+                            <div class="car-spec"><i class="fas fa-bolt"></i> 450 л.с.</div>
+                            <div class="car-spec"><i class="fas fa-gas-pump"></i> 12.5 л/100км</div>
+                        </div>
+                        <a href="ford.html" class="car-link">Подробнее</a>
+                    </div>
+                </div>
+                <div class="car-card">
+                    <div class="car-img">
+                        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Porsche 911">
+                        <div class="car-price">₽12,990,000</div>
+                    </div>
+                    <div class="car-info">
+                        <h3>Porsche 911 Carrera S</h3>
+                        <div class="car-specs">
+                            <div class="car-spec"><i class="fas fa-tachometer-alt"></i> 3.0 л</div>
+                            <div class="car-spec"><i class="fas fa-bolt"></i> 450 л.с.</div>
+                            <div class="car-spec"><i class="fas fa-gas-pump"></i> 9.4 л/100км</div>
+                        </div>
+                        <a href="porsh.html" class="car-link">Подробнее</a>
+                    </div>
+                </div>
+                <div class="car-card">
+                    <div class="car-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQxJyCeTciLaBTBEPll1UEDv_ZiVFJr4xEqg&s" alt="Tesla Model 3">
+                        <div class="car-price">₽3,990,000</div>
+                    </div>
+                    <div class="car-info">
+                        <h3>Tesla Model 3 Long Range</h3>
+                        <div class="car-specs">
+                            <div class="car-spec"><i class="fas fa-bolt"></i> 346 л.с.</div>
+                            <div class="car-spec"><i class="fas fa-battery-full"></i> 614 км</div>
+                            <div class="car-spec"><i class="fas fa-charging-station"></i> 250 кВт</div>
+                        </div>
+                        <a href="#" class="car-link">Подробнее</a>
+                    </div>
+                </div>
+               
+                        
+                    </div>
+                </div>
+           
+        
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>О компании</h3>
+                    <p>AutoWorld - это ведущий автомобильный портал, предоставляющий самую актуальную информацию об автомобилях с 2010 года.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Разделы</h3>
+                    <ul class="footer-links">
+                        <li><a href="#history"><i class="fas fa-chevron-right"></i>История автомобилей</a></li>
+                        <li><a href="#reviews"><i class="fas fa-chevron-right"></i>Обзоры и тест-драйвы</a></li>
+                        <li><a href="#catalog"><i class="fas fa-chevron-right"></i>Каталог автомобилей</a></li>
+                        <selection id="news" class="news"> 
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Автоновости</a></li>
+                        </selection>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Автосалоны</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Контакты</h3>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-map-marker-alt"></i>Москва, ул. Автозаводская, 23</a></li>
+                        <selection id="phone" class="phine">
+                        <li><a href="#"><i class="fas fa-phone"></i>+7 (495) 123-45-67</a></li>
+                        </selection>
+                        <li><a href="#"><i class="fas fa-envelope"></i>info@autoworld.ru</a></li>
+                        <li><a href="#"><i class="fas fa-clock"></i>Пн-Пт: 9:00 - 19:00</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 AutoWorld. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
